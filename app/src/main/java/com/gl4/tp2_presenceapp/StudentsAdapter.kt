@@ -49,10 +49,10 @@ class StudentsAdapter(private val data: ArrayList<Student>) : RecyclerView.Adapt
                 data[dataFilterList[position].id].present = value
                 if(filterChoice ==0)
                     filter.filter("")
-                else if(filterChoice==1)
-                    filter.filter("true")
                 else if(filterChoice==2)
                     filter.filter("false")
+                else if(filterChoice==1)
+                    filter.filter("true")
             }
         }
 

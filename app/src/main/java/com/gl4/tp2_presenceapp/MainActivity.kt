@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             Student(3,"Walid","Sboui", "F",true),
             Student(4,"Houssem","Hajji", "M", true),
             Student(5,"Elking","Elking", "F",false),
-            Student(6,"Ousema","Oussema", "F",false),
+            Student(6,"Ousema","Oussema", "F",true),
         )
 
         var studentsAdapter = StudentsAdapter(students)
