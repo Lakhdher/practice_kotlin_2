@@ -24,12 +24,12 @@ class MainActivity : AppCompatActivity() {
 
         var students = arrayListOf<Student>(
             Student(0,"Ennoury","Lemaalem", "M", true),
-            Student(1,"Dali","Selmi", "F",false),
+            Student(1,"Nessrine","Ben Amor", "F",false),
             Student(2,"Mehdi","Cherif", "M",false),
-            Student(3,"Walid","Sboui", "F",true),
+            Student(3,"Salma","Ben Amor", "F",true),
             Student(4,"Houssem","Hajji", "M", true),
-            Student(5,"Elking","Elking", "F",false),
-            Student(6,"Ousema","Oussema", "F",true),
+            Student(5,"Elking","Elking", "M",false),
+            Student(6,"Sawsen","Sawsen", "F",true),
         )
 
         var studentsAdapter = StudentsAdapter(students)
